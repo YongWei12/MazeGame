@@ -271,7 +271,7 @@ public class GameView extends View {
             float y = event.getY();
 
             float playerCenterX = (player.col+.5f) * cellSize;
-            float playerCenterY = (player.col + .5f)* cellSize;
+            float playerCenterY = (player.row + .5f)* cellSize;
 
             //difference in x and y direction
             float dx = x- playerCenterX;
